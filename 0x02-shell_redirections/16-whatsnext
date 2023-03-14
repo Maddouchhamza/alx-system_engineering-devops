@@ -1,3 +1,3 @@
 #!/bin/bash
-grep -i "root" --after-context=3 /etc/passwd
+grep -B 3 "root" /etc/passwd
 
