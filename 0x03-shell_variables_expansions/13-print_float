@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $NUM | grep [.[[:digit:][:digit:]]] | echo
+printf "%.2f\n" $NUM
